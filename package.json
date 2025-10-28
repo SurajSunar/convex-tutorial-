@@ -9,11 +9,18 @@
     "predev": "convex dev --once"
   },
   "dependencies": {
+    "@ai-sdk/google": "^2.0.24",
+    "@ai-sdk/provider": "^2.0.0",
+    "@convex-dev/agent": "^0.2.11",
     "@faker-js/faker": "^10.0.0",
+    "@google/genai": "^1.27.0",
+    "ai": "^5.0.81",
     "convex": "1.28.0",
+    "convex-helpers": "^0.1.104",
+    "prettier": "3.6.2",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "prettier": "3.6.2"
+    "zod": "^4.1.12"
   },
   "devDependencies": {
     "@types/babel__core": "^7.20.0",
@@ -21,8 +28,8 @@
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "@vitejs/plugin-react": "^4.2.1",
+    "npm-run-all2": "^7.0.0",
     "typescript": "~5.0.3",
-    "vite": "^6.3.6",
-    "npm-run-all2": "^7.0.0"
+    "vite": "^6.3.6"
   }
 }
