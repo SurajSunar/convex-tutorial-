@@ -6,7 +6,6 @@ import { listMessages, saveMessage } from "@convex-dev/agent";
 import { agent } from "./agent/simple";
 import { paginationOptsValidator } from "convex/server";
 import { authorizeThreadAccess } from "./thread";
-import { da } from "@faker-js/faker";
 
 const GEMINI_API_KEY = process.env.GOOGLE_API_KEY;
 
